@@ -22,7 +22,7 @@ Web Application for Hackathon competition (Mumbai Studio).
 #Steps to run this application
 - `git clone Url` to clone the application at your local machine.
 - `npm install`   to install all the required node modules.
-- `npm install -g @angular/cli`   to install angular-cli golbaly.
+- `npm install -g @angular/cli`   to install angular-cli globaly.
 - `ng serve`      to launch a browser sync server on your source files.
 - `npm test ` to run the spec for the application.
 
