@@ -26,7 +26,7 @@ Web Application for Hackathon competition (Mumbai Studio).
 - `ng serve`      to launch a browser sync server on your source files.
 - `npm test ` to run the spec for the application.
 
-#Steps to required in production deployment
+#Steps required for production deployment
 - `ng build --prod` to build an optimized version of your application for production in dist folder.
 - `npm test ` to run the spec for the application.
 - `ng lint ` to check all the linting error defined in the lint files.
