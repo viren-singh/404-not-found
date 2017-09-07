@@ -20,7 +20,7 @@ Web Application for Hackathon competition (Mumbai Studio).
     ```    
 
 #Steps to run this application
-- `git clone Url` to clone the application at your local machine.
+- `git clone https://github.com/atulneharkar/404-not-found.git` to clone the application at your local machine.
 - `npm install`   to install all the required node modules.
 - `npm install -g @angular/cli`   to install angular-cli globaly.
 - `ng serve`      to launch a browser sync server on your source files.
@@ -31,5 +31,8 @@ Web Application for Hackathon competition (Mumbai Studio).
 - `npm test ` to run the spec for the application.
 - `ng lint ` to check all the linting error defined in the lint files.
 - `ng e2e ` to start end to end testing.
+
+#Production URL
+[http://404-not-found.beawesome.co.in/](http://404-not-found.beawesome.co.in/)
 
 
