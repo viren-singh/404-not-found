@@ -1,0 +1,55 @@
+.header-main {
+  background: $header-background;
+
+  .tabs {
+    margin-top: 45px;
+  }
+
+  .img-header {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .tabs-nav {
+    margin-top: 10px;
+  }
+
+  .logo-image {
+    background: url('assets/images/group.png');
+    background-repeat: no-repeat;
+  }
+
+  .header-tab {
+    @include font-source(Montserrat-Bold, 16px, $white);
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .horizontal-tab {
+    li {
+      display: inline-block;
+      margin-right: 45px;
+      a:hover,
+      &.active a {
+        border-bottom: 5px solid $button-color;
+      }
+    }
+  }
+
+  .sign-up {
+    width: 133px;
+    height: 45px;
+    padding-top: 9px;
+    border: 1px solid $button-color;
+    border-radius: 100px;
+    margin-right: 41px;
+    cursor: pointer
+  }
+
+  .sign-up-link {
+    @include font-source(Montserrat-Light, 16px, $button-color, 600, false);
+    margin-left: 30px;
+    text-decoration: none;
+  }
+}
