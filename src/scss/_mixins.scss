@@ -1,0 +1,13 @@
+
+@mixin get-font-ttf($font,$file){
+	font-family: #{$font};
+	src: url("#{$font-base}/#{$file}") format("truetype");
+}
+
+@mixin font-source-sans($family:false, $size: false, $colour: false, $weight: false,  $lh: false) {
+    @if $size { font-family: $family; }
+    @if $size { font-size: $size; }
+    @if $colour { color: $colour; }
+    @if $weight { font-weight: $weight; }
+    @if $lh { line-height: $lh; }
+}
