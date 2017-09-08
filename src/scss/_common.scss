@@ -1,10 +1,26 @@
 
 
-// /*----------- Open Sans -----------*/
-// @font-face{
-// 	@include get-font-ttf('OpenSans-Regular','Open_Sans/OpenSans-Regular.ttf');
-// }
-// /*----------- Raleway -----------*/
-// @font-face{
-// 	@include get-font-ttf('Raleway-Regular','Raleway/Raleway-Regular.ttf');
-// }
+/*----------- Montserrat-Black -----------*/
+@font-face{
+	@include get-font-ttf('Montserrat-Black','../assets/fonts/Montserrat-Black.otf');
+}
+/*----------- Montserrat-Bold -----------*/
+@font-face{
+	@include get-font-ttf('Montserrat-Bold','../assets/fonts/Montserrat-Bold.otf');
+}
+/*----------- Montserrat-Hailine -----------*/
+@font-face{
+	@include get-font-ttf('Montserrat-Hailine','../assets/fonts/Montserrat-Hairline.otf');
+}
+/*----------- Montserrat-Light -----------*/
+@font-face{
+	@include get-font-ttf('Montserrat-Light','../assets/fonts/Montserrat-Light.otf');
+}
+/*----------- Montserrat-Regular -----------*/
+@font-face{
+	@include get-font-ttf('Montserrat-Regular','../assets/fonts/Montserrat-Regular.otf');
+}
+/*----------- ExodusDemo-Stencil -----------*/
+@font-face{
+	@include get-font-ttf('ExodusDemo-Stencil','../assets/fonts/ExodusDemo-Stencil.otf');
+}

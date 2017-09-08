@@ -1,7 +1,7 @@
 
 @mixin get-font-ttf($font,$file){
 	font-family: #{$font};
-	src: url("#{$font-base}/#{$file}") format("truetype");
+	src: url("#{$font}/#{$file}") format("truetype");
 }
 
 @mixin font-source-sans($family:false, $size: false, $colour: false, $weight: false,  $lh: false) {
