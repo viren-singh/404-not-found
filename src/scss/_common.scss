@@ -24,3 +24,22 @@
 @font-face{
 	@include get-font-ttf('ExodusDemo-Stencil','../assets/fonts/ExodusDemo-Stencil.otf');
 }
+
+.click-here {
+  width: 177px;
+  height: 45px;
+  padding-top: 11px;
+  border-radius: 100px;
+  margin: 35px auto 0;
+  background: $button-color;
+  cursor: pointer;
+  text-align: center;
+  a {
+    @include font-source(Montserrat-Bold, 16px, $black-text);
+    text-decoration: none;
+  }
+}
+
+hr {
+  width: 100%;
+}

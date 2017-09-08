@@ -1,0 +1,58 @@
+.panels {
+    .wrapper {
+        .panel-heading {
+            margin: 0 auto;
+            padding: 0px;
+        }
+        .sub-heading {
+            text-align: center;
+            padding: 30px 0 50px;
+        }
+        h2 {
+            @include font-source(Montserrat-Light, 32px, $grey, 600, false);
+             letter-spacing: 4px;
+        }
+        p{
+            @include font-source(Montserrat-Light, 14px, $grey, 600, false);
+             letter-spacing: 1.8px;
+        }
+        .panel-img {
+            width: 70px;
+            height: 70px;
+            margin-right: 19px;
+            border: 1px solid #ccc;
+            padding: 5px;
+            border-radius: 50%;
+        }
+    }
+    .all-panel {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .panelist {
+        display: table;
+        float: left;
+        width: 25%;
+        .image-area {
+            display: table-cell
+        }
+        .details {
+            display: table-cell;
+            vertical-align: middle;
+            .name {
+                @include font-source(Montserrat-Regular, 20px, $grey);
+                margin-bottom: 0px;
+            }
+            .title {
+                @include font-source(Montserrat-Light, 14px, $grey);
+            }
+        }
+    }
+
+     .panel-status {
+        width: 549px;
+        margin: 52px auto 50px;
+        @include font-source(Montserrat-Light, 14px, $grey);
+        letter-spacing: 1.8px;
+    }
+}

@@ -1,31 +1,19 @@
 .banner {
-    background: $header-background;
-    height: 332px;
-    .wrapper {
-        width: 516px;
-        margin: 0 auto;
-        h2 {
-            @include font-source(ExodusDemo-Stencil, 36px, $white);
-            padding-top: 95px;
-            letter-spacing: 4.5px;
-        }
-        p {
-             @include font-source(Montserrat-Light, 14px, $white);
-             margin-left: 10px;
-             letter-spacing: 1.8px;
-        }
-        .click-here {
-            width: 177px;
-            height: 45px;
-            background: $button-color;
-            border-radius: 100px;
-            margin: 0 auto;
-            a {
-                @include font-source(Montserrat-Bold, 16px, $black-text);
-                position: relative;
-                top: 10px;
-                left: 33px;
-            }
-        }
+  background: $header-background;
+  height: 332px;
+  .wrapper {
+    width: 516px;
+    margin: 0 auto;
+    h2 {
+      @include font-source(ExodusDemo-Stencil, 36px, $white);
+      padding-top: 95px;
+      margin-top: -2px;
+      letter-spacing: 4.5px;
     }
+    p {
+      @include font-source(Montserrat-Light, 14px, $white);
+      margin-left: 10px;
+      letter-spacing: 1.8px;
+    }
+  }
 }

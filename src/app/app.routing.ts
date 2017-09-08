@@ -4,7 +4,7 @@ import { ContentComponent, HomePageComponent, AboutUsComponent, ElementsComponen
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: HomePageComponent 
   },
   {

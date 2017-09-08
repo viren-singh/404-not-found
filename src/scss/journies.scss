@@ -1,5 +1,27 @@
 .carousel {
+    h2 {
+        margin-top: 0;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        color: #757575;
+        padding-top:30px;
+    }
+    h3 {
+      font-size: 24px;
+      letter-spacing: 3px;
+    }
+    .carousel-text {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 1.8px;
+        color: #757575;
+        padding-bottom: 20px;
+    }
     background-color: #f2f2f2;
+    padding-bottom: 20px;
     .carousel-component {
         .carousel-container {
             display: inline-block;
@@ -8,6 +30,16 @@
             border-radius: 5px;
             background-color: #ffffff;
             box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+            margin-right:20px;
+            padding: 0 20px;
+            color: #757575;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 1.8px;
+
+            p {
+              margin-top: 30px;
+            }
         }
     }
     .oval {
@@ -19,9 +51,7 @@
         img {
             margin-top: 30px;
         }
-        position: relative;
-        left: 138px;
-        margin-top:45px;
+        margin: 45px auto 0;
     }
     .description {
         width: 293px;
@@ -33,6 +63,7 @@
         letter-spacing: 1.8px;
         text-align: left;
         color: #757575;
+        font-size: 14px;
     }
     .carousel-heading {
         width: 278px;
@@ -48,24 +79,24 @@
         width: 50px;
         height: 50px;
         background-color: #f9f9f9;
-        img {
-            position: relative;
-            left: 142px;
-            bottom: 200px;
-        }
+        border-radius: 50%;
+        padding: 9px 0 0;
+        position: relative;
+        top: 187px;
+        left: 25px;
+        display: inline-block;
     }
     .oval-direction2 {
         width: 50px;
         height: 50px;
-        background-color: #f9f9f9;
-        img {
-            position: relative;
-            left: 142px;
-            /* top: 200px; */
-            bottom: 200px;
-        }
+        background-color: #dddddd;
+        border-radius: 50%;
+        padding: 9px 0 0;
+        position: relative;
+        top: 187px;
+        right: 44px;
+        display: inline-block;
     }
-
     .carousel-control.left,.carousel-control.right {
         background:none;
     }
