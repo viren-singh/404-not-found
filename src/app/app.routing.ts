@@ -1,11 +1,23 @@
 import { Routes, RouterModule } from '@angular/router';
 
-import { ContentComponent } from './content';
+import { ContentComponent, HomePageComponent, AboutUsComponent, ElementsComponent, FaqComponent } from './content';
 
 const routes: Routes = [
   {
     path: '',
-    component: ContentComponent 
+    component: HomePageComponent 
+  },
+  {
+    path: 'about-us',
+    component: AboutUsComponent 
+  },
+  {
+    path: 'elements',
+    component: ElementsComponent 
+  },
+  {
+    path: 'faq',
+    component: FaqComponent 
   },
 
   // otherwise redirect to content
