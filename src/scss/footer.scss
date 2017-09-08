@@ -1,0 +1,35 @@
+.page-footer{
+  h3 {
+    @include font-source(Montserrat-Regular, 20px, #757575);
+    letter-spacing: 2.5px;
+    text-align: left;
+  }
+  p{
+    @include font-source(Montserrat-Regular, 14px, #757575);
+    line-height: 1.57;
+    letter-spacing: 1.8px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    background-color: #f9f9f9;
+    padding-top: 40px;
+  }
+  li {
+    list-style:none;
+  }
+  .copyright {
+      font-size: 10px;
+      font-weight: 300;
+      line-height: 1.4;
+      color: #3f3f3f;
+  }
+  .footer-links li {
+      float:left;
+      padding: 0 5px;
+  }
+
+  .social-icons {
+    padding: 0 15px;
+  }
+}
