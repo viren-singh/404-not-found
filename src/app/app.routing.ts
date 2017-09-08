@@ -4,6 +4,10 @@ import { ContentComponent, HomePageComponent, AboutUsComponent, ElementsComponen
 
 const routes: Routes = [
   {
+    path: '',
+    component: HomePageComponent 
+  },
+  {
     path: 'home',
     component: HomePageComponent 
   },
