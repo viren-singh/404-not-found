@@ -1,30 +1,32 @@
-<div class="page-header">
-  <div class="wrapper">
+<div class="page-header header-main">
+  <div class="wrapper clearfix">
 
   	<!-- page logo -->
-  	<h1 class="logo">
-  		<a href="">Hackathon</a>
+  	<h1 class="logo pull-left">
+  		<a [routerLink]="['/home']"><img class="img-header" src="../assets/images/group.png" /></a>
   	</h1>
 
-  	<div>
+  	<div class="tabs pull-right">
 	  	<!-- page navigation -->
-	  	<nav>
-	  		<ul>
-	  			<li>
-	  				<a href="">home</a>
+	  	<nav class="tabs-nav pull-left">
+	  		<ul class="horizontal-tab">
+	  			<li [routerLinkActive]="['active']">
+	  				<a [routerLink]="['/home']" class="header-tab">home</a>
 	  			</li>
-	  			<li>
-	  				<a href="">about us</a>
+	  			<li [routerLinkActive]="['active']">
+	  				<a [routerLink]="['/about-us']" class="header-tab">about us</a>
 	  			</li>
-	  			<li>
-	  				<a href="">elements</a>
+	  			<li [routerLinkActive]="['active']">
+	  				<a [routerLink]="['/elements']" class="header-tab">elements</a>
 	  			</li>
-	  			<li>
-	  				<a href="">faq</a>
+	  			<li [routerLinkActive]="['active']">
+	  				<a [routerLink]="['/faq']" class="header-tab">faq</a>
 	  			</li>
 	  		</ul>
 	  	</nav>
-	  	<a class="sign-up-link">Sign up</a>
+	  	<div class="sign-up pull-right">
+	  	  <a class="sign-up-link">Sign up</a>
+	  	</div>
   	</div>
 
   </div>
